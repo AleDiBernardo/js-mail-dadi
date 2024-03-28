@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dadi</title>
-</head>
-<body>
-    
+
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="flex just-cont-ctr align-items-center">
+    <!-- MAIN -->
+    <main class="flex align-items-center">
+      <h1>
+        <a href="https://github.com/AleDiBernardo/DiceGame">Dice Game</a>
+      </h1>
+
+      <div class="flex shotContainer">
+        <div
+          class="diceContainer flex just-cont-ctr align-items-center"
+          id="playerDice"
+        ></div>
+        <div
+          class="diceContainer flex just-cont-ctr align-items-center"
+          id="computerDice"
+        ></div>
+      </div>
+
+      <h2 id="result"></h2>
+
+      <div class="flex playground">
+        <input type="button" value="Roll" id="rollBtn" />
+      </div>
+    </main>
+    <!-- /MAIN -->
+
     <!-- MyScript -->
     <script src="assets/js/app.js"></script>
-</body>
+  </body>
 </html>

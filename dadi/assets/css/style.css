@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* COMMON */
+body {
+  background-color: lightseagreen;
+  height: 100vh;
+  color: white;
+}
+
+main {
+  background-color: #ccff00;
+  width: 800px;
+  height: 800px;
+  border: 8px solid lightgreen;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+main > h1 {
+  font-size: 80px;
+  font-family: monospace;
+  margin: 40px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.shotContainer {
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.diceContainer {
+  width: 230px;
+  height: 230px;
+
+  /* debug */
+  /* background-image: url("../img/1.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faceOne {
+  background-image: url(../img/1.png);
+}
+
+.faceTwo {
+  background-image: url(../img/2.png);
+}
+
+.faceThree {
+  background-image: url(../img/3.png);
+}
+
+.faceFour {
+  background-image: url(../img/4.png);
+}
+
+.faceFive {
+  background-image: url(../img/5.png);
+}
+
+.faceSix {
+  background-image: url(../img/6.png);
+}
+
+.playground {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.playground > input {
+  border: none;
+  color: inherit;
+  font-weight: bold;
+  font-size: 50px;
+  width: 30%;
+  background-color: #00ff00;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#result {
+  font-size: 50px;
+}
+/* UTILITIES */
+
+.flex {
+  display: flex;
+}
+
+.just-cont-ctr {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.subtitle {
+  font-size: 60px;
+}
