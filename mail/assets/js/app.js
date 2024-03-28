@@ -15,6 +15,6 @@ for (let i = 0; i < canAccessList.length; i++) {
   }
 }
 
-//conoscenze pregresse da Java (non muore nessuno tranquilli è proprio Java che intendevo)
-canUserAccess === true ? console.log("Benvenuto") : console.log("Non puoi accedere");
+//conoscenze pregresse di Java (non muore nessuno tranquilli è proprio Java che intendevo)
+canUserAccess === true ? alert("Benvenuto") : alert("Non puoi accedere");
 
